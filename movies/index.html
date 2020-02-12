@@ -1,8 +1,8 @@
 <html>
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>标签列表 | 晚风拂月的blog</title>
+<title>我的观影 | 晚风拂月的blog</title>
 <meta name="description" content="这是一个主要记录题解、模板、日记的博客" />
 <link rel="shortcut icon" href="https://hyf2018gdfz.github.io//favicon.ico">
 <link rel="stylesheet" href="https://hyf2018gdfz.github.io//styles/main.css">
@@ -13,6 +13,9 @@
 <script src="https://hyf2018gdfz.github.io//media/js/pace.min.js"></script>
 <script src="https://hyf2018gdfz.github.io//media/js/view-image.min.js"></script>
 <script src="https://hyf2018gdfz.github.io//media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <link rel="stylesheet" href="https://hyf2018gdfz.github.io//media/js/Bmdb.min.css">
+    <script type='text/javascript' src='https://hyf2018gdfz.github.io//media/js/Bmdb.min.js'></script>
   </head>
   <body>
     <!-- start: #wrapper -->
@@ -66,23 +69,13 @@
         <div class="clear"></div>
       </header>
 
-      <main id="tags" class="main fullcover no-sidebar content">
+      <main id="friends" class="main fullcover no-sidebar content">
         <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
         <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
-
-          <div class="widget_tag_cloud tagcloud">
-            
-              <a href="https://hyf2018gdfz.github.io/tag/HmXVVkhP7" class="ctag ctag-0 ctag-HmXVVkhP7" aria-label="">模板</a>
-            
-          </div>
+          <div class="section-content" style="margin-top:3em;"></div>
         </div>
-
-        </div>
-          </div>
         </div>
       </main>
-
         <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
@@ -181,6 +174,15 @@
         </a>
     </footer>
     <div class="clear"></div>
+    <script>
+    new Bmdb({
+      type: 'movies',
+      selector: '.section-content',
+      secret: '0bba46738324c778ad2da662837c14d2c1e5bceb22e3729febc9fd3677bdcea5',
+      noMoreText: '没有更多数据了',
+      limit: 30
+    })
+    </script>
     </div>
     <!-- end: #wrapper -->
   </body>
