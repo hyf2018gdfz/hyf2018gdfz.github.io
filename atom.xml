@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hyf2018gdfz.github.io/</id>
     <title>晚风拂月的blog</title>
-    <updated>2020-02-12T13:49:31.450Z</updated>
+    <updated>2020-02-22T13:28:34.618Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hyf2018gdfz.github.io/"/>
     <link rel="self" href="https://hyf2018gdfz.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://hyf2018gdfz.github.io/images/avatar.png</logo>
     <icon>https://hyf2018gdfz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 晚风拂月的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[神帖]]></title>
+        <id>https://hyf2018gdfz.github.io/post/shen-tie</id>
+        <link href="https://hyf2018gdfz.github.io/post/shen-tie">
+        </link>
+        <updated>2020-02-22T11:22:34.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://www.luogu.com.cn/discuss/show/33314">2018-02-07</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/61884">2018-09-01</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/89910">2018-12-18</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/99128">2019-2-10</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/137272">2019-08-18</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/133080">2019-08-18</a><br>
+<a href="https://www.luogu.com.cn/paste/ng2bbmrc">2020-02-03</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/189281">2020-02-10</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/192668">2020-02-19</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/193495">2020-02-22</a><br>
+<a href="https://www.luogu.com.cn/paste/iupj0z7x">2020-02-22原帖已删</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/193566">2020-02-22</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/193727">2020-02-22</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[模板：快速幂]]></title>
         <id>https://hyf2018gdfz.github.io/post/mo-ban-kuai-su-mi</id>
