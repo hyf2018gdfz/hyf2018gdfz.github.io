@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hyf2018gdfz.github.io/</id>
     <title>晚风拂月的blog</title>
-    <updated>2020-02-25T05:46:18.437Z</updated>
+    <updated>2020-03-13T07:12:19.637Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hyf2018gdfz.github.io/"/>
     <link rel="self" href="https://hyf2018gdfz.github.io/atom.xml"/>
@@ -11,12 +11,60 @@
     <icon>https://hyf2018gdfz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 晚风拂月的blog</rights>
     <entry>
+        <title type="html"><![CDATA[Windows函数]]></title>
+        <id>https://hyf2018gdfz.github.io/post/windows-han-shu</id>
+        <link href="https://hyf2018gdfz.github.io/post/windows-han-shu">
+        </link>
+        <updated>2020-03-13T06:56:25.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>鼠标指针函数</li>
+</ol>
+<pre><code>POINT p; //定义一个变量p，类型为鼠标指针。
+p.x //p的x坐标。
+p.y //p的y坐标。
+</code></pre>
+<p>POINT支持的函数：</p>
+<pre><code>GetCursorPos(&amp;p); //获取当前鼠标的坐标，并赋值给p。
+SetCursorPos(x,y); //把鼠标指针移到 (x,y)。
+</code></pre>
+<ol start="2">
+<li>键盘函数</li>
+</ol>
+<pre><code>keybd_event(x,0,0,0);
+</code></pre>
+<p>在这个函数里，第一个参数是一个整数。<br>
+比如：<br>
+48-57 指的是 0-9。<br>
+65-90 指的是 a-z。</p>
+<p>当然也可以是关键字。<br>
+比如：<br>
+VK_RETURN 代表 回车。<br>
+VK_SHIFT 代表 shift。<br>
+VK_CTRL 代表 Ctrl。</p>
+<p>第二个参数一般写0，用处未知。<br>
+第三个参数0表示按下，KEYEVENTF_KEYUP表示松开。<br>
+第四个参数一般写0，用处未知。</p>
+<ol start="3">
+<li>鼠标函数</li>
+</ol>
+<pre><code>mouse_event(MOUSEEVENTF_LEFTDOWN,0,0,0,0); //左键按下。
+mouse_event(MOUSEEVENTF_LEFTUP,0,0,0,0); //左键松开。
+</code></pre>
+<p>猜测右键的操作应该是：</p>
+<pre><code>mouse_event(MOUSEEVENTF_RIGHTDOWN,0,0,0,0);
+mouse_event(MOUSEEVENTF_RIGHTUP,0,0,0,0);
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[神帖]]></title>
         <id>https://hyf2018gdfz.github.io/post/shen-tie</id>
         <link href="https://hyf2018gdfz.github.io/post/shen-tie">
         </link>
         <updated>2020-02-22T11:22:34.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://www.luogu.com.cn/discuss/show/33314">2018-02-07</a><br>
+        <content type="html"><![CDATA[<p><a href="https://arachnidaqueen.blog.luogu.org/nei-suo-nian-di-shen-tie-shou-lu">更多</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/33314">2018-02-07</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/53896">2018-08-05 slay.one</a><br>
 <a href="https://www.luogu.com.cn/discuss/show/61884">2018-09-01</a><br>
 <a href="https://www.luogu.com.cn/discuss/show/89910">2018-12-18</a><br>
 <a href="https://www.luogu.com.cn/discuss/show/99128">2019-2-10</a><br>
@@ -28,7 +76,16 @@
 <a href="https://www.luogu.com.cn/discuss/show/193495">2020-02-22</a><br>
 <a href="https://www.luogu.com.cn/paste/iupj0z7x">2020-02-22原帖已删</a><br>
 <a href="https://www.luogu.com.cn/discuss/show/193566">2020-02-22</a><br>
-<a href="https://www.luogu.com.cn/discuss/show/194250">2020-02-24</a></p>
+<a href="https://www.luogu.com.cn/discuss/show/194250">2020-02-24</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/194274">2020-02-24</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/194721">2020-02-25</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/196782">2020-03-01 小黑屋</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/197678">2020-03-03</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/197902">2020-03-04</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/198063">2020-03-04</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/198084">2020-03-04</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/198090">2020-03-04</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/198098">2020-03-04</a></p>
 ]]></content>
     </entry>
     <entry>
